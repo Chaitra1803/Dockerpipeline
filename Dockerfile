@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.9-18
 
 # Set the working directory in the container
 WORKDIR /flask_app
