@@ -17,6 +17,7 @@ pipeline {
       }
     } 
     */
+    /*
     stage('Deploy') {
       steps {
         withCredentials([usernamePassword(credentialsId: "${DOCKER_REGISTRY_CREDS}", passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
@@ -25,6 +26,7 @@ pipeline {
         }
       }
     }
+    */
     
   }
 
