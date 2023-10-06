@@ -26,10 +26,11 @@ pipeline {
         }
       }
     }
-    */
+   
     
   }
-*/
+   */
+
 
 post{
       always{
