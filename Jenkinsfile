@@ -2,12 +2,14 @@ pipeline {
   agent any
 
   stages {
+    /*
     stage('Build') {
       steps {
         sh 'docker build -t my-flask .'
         sh 'docker tag my-flask $DOCKER_BFLASK_IMAGE'
       }
     }
+    */
     /*
     stage('Test') {
       steps {
